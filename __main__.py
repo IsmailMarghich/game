@@ -12,7 +12,7 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
         self.clock = pygame.time.Clock()
-        self.font = pygame.font.Font("pixel_font.TTF", 32)
+        self.font = pygame.font.Font("pixel_font.ttf", 32)
         self.running = True
         
         self.character_spritesheet = Spritesheet("img/characterr.png")
