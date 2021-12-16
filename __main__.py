@@ -6,7 +6,7 @@ from config import *
 from tilemap import *
 from os import path
 import sys
-
+#main
 class Game:
     def __init__(self):
         pygame.init()
